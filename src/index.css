@@ -26,6 +26,27 @@
 .first-page{
   overflow: hidden;
 }
+.text-5{
+  position:absolute;
+  top:30%;
+  left:80%;
+  z-index:1;
+animation: movTxt-5 5s ;
+}
+.text-6{
+  position:absolute;
+  top:20%;
+  left:50%;
+  z-index:1;
+  animation: movTxt-6 5s ;
+}
+.eggs{
+  position:absolute;
+  top:1%;
+  left:5%;
+  z-index:1;
+  animation: mov-eggs 5s ;
+}
 @keyframes mov {
   from {
     margin-left: 100%;
@@ -33,5 +54,28 @@
   to{
     margin-left: -30%;
   }
-  
+}
+@keyframes movTxt-5 {
+  0% {
+    transform:translateX(-80%) translateY(100%);
+    
+  }
+  100%{
+    transform:translateX(0);
+  }
+}
+@keyframes movTxt-6 {
+  0% {
+    transform:translateX(-80%) translateY(100%);
+  }
+  100%{
+    transform:translateX(0);
+  }
+}@keyframes mov-eggs {
+  0% {
+    transform:translateX(25%) translateY(25%);
+  }
+  100%{
+    transform:translateX(0%);
+  }
 }

@@ -9,7 +9,11 @@ import btn_back from '../assets/icons/buttons/btn-back.png'
 import nube_1 from '../assets/images/page04/nube_3.png'
 import nube_2 from '../assets/images/page04/nube_2.png'
 import nube_3 from '../assets/images/page04/nube_5.png'
-import nube_4 from '../assets/images/page04/nube_4.png'
+
+import text_5 from '../assets/images/page05/text_5.png'
+
+import text_6 from '../assets/images/page06/text_6.png'
+import huevos from '../assets/images/page06/huevos.png'
 
 const Book = () => {
 
@@ -37,9 +41,12 @@ const Book = () => {
                         </div>
                         <div className="carousel-item">
                             <img src={page05} className="d-block w-100" alt="..."/>
+                            <img src={text_5} className="text-5" width="50"  alt="" />
                         </div>
                         <div className="carousel-item">
                             <img src={page06} className="d-block w-100" alt="..."/>
+                            <img src={text_6} className="text-6" width="100"  alt="" />
+                            <img src={huevos} className="eggs" width="300"  alt="" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" id="previous" style={{ display: 'none' }}>
