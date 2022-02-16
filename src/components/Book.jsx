@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Container } from 'react-bootstrap'
+import {  Container } from 'react-bootstrap'
 import page04 from '../assets/images/page04/panel_4.png'
 import page05 from '../assets/images/page05/panel_5.png'
 import page06 from '../assets/images/page06/panel_6.png'
